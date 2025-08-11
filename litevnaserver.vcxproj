@@ -75,6 +75,10 @@
     <OutDir>$(ProjectDir)\bin\windows\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(ProjectDir)\temp\windows\$(Platform)\\$(Configuration)\</IntDir>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)\bin\windows\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)\temp\windows\$(Platform)\\$(Configuration)\</IntDir>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
