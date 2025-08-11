@@ -86,7 +86,7 @@ Just run the `litevnaserver` executable using command prompt.
 
 ### Windows
 
-Dowload from
+Download from
 [GitHub Releases](https://github.com/jcziviani/litevnaserver/releases) or build
 the executable using Visual Studio 2022 Community Edition.
 
