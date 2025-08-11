@@ -1,0 +1,17 @@
+**/.vs
+**/bin
+**/temp
+*.vcxproj.user
+*.pdb
+*.pyc
+*.exp
+*.obj
+*.iobj
+*.ipdb
+*.ilk
+*.idb
+*.tlog
+*.db
+*.log
+*.recipe
+*.suo
