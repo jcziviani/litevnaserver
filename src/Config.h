@@ -125,6 +125,7 @@ namespace litevnaserver {
 DESCRIPTION
 
     LiteVNAServer is an HTTP server for querying data (in JSON format) from a LiteVNA 64 device.
+    It uses device calibration data.
 
 USAGE
 
@@ -143,7 +144,7 @@ USAGE
 
 REQUEST
 
-    Clients must send an HTML GET request with url containing all of the following parameters:
+    Clients must send an HTML GET request with url containing all the following parameters:
         start     sweep start frequency in Hz.
         step      sweep step frequency in Hz.
         points    number of sweep frequency points.
