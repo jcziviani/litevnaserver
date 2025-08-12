@@ -8,13 +8,13 @@ LiteVNA 64 device. It uses device calibration data.
 ```
 litevnaserver [options]
 
-    Options:
-        --version                    Show version information.
-        --help                       Display this information.
-        -com-port=<name>             (required) serial port where LiteVNA device is connected.
-        -tcp-port=<number>           (required) tcp port where LiteVNAServer will listen for requests.
-        -logger-categories=<options> Comma separated options: http_server,lite_vna,info,error,all (default info,error).
-        -logger-file=<file-name>     Logger output file (do not write to file by default).
+Options:
+  --version                    Show version information.
+  --help                       Display this information.
+  -com-port=<name>             (required) serial port where LiteVNA device is connected.
+  -tcp-port=<number>           (required) tcp port where LiteVNAServer will listen for requests.
+  -logger-categories=<options> Comma separated options: http_server,lite_vna,info,error,all (default info,error).
+  -logger-file=<file-name>     Logger output file (do not write to file by default).
 ```
 
 ### Example:
@@ -98,3 +98,4 @@ required, there are no external dependencies.
 ```bash
 make
 ```
+
